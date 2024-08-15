@@ -1,0 +1,2 @@
+# Quizify
+AI Quiz Generator
