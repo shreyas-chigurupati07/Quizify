@@ -15,6 +15,10 @@ Quizify is an AI-powered tool designed to generate and manage quizzes based on p
 ### Project Structure
 
 The project is divided into several tasks, each encapsulated within its respective module:
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
 
 	1.	Task 3 - Document Processing
 		Module: DocumentProcessor
@@ -40,10 +44,38 @@ The project is divided into several tasks, each encapsulated within its respecti
 		Module: Task_10.py
 		Functionality: Integrates all the above modules into a cohesive Streamlit application, allowing users to generate and take quizzes interactively.
 
-### Installation
+## Installation
 
 ### Prerequisites
 
 	•	Python 3.8 or higher
 	•	pip (Python package manager)
 	•	Google Cloud credentials (for the embedding service)
+
+## Usage
+
+### Generating a Quiz
+
+	1.	Upload the PDF documents you want to generate quizzes from.
+	2.	Enter the topic for the quiz.
+	3.	Specify the number of questions you want to generate.
+	4.	Click “Submit” to generate the quiz.
+
+### Taking the Quiz
+
+	•	Navigate through the quiz using the “Next Question” and “Previous Question” buttons.
+	•	Select an answer for each question and receive instant feedback on your selection.
+	•	View explanations for the correct answers.
+
+## Project Development
+
+### Task Breakdown
+
+Each task in the project is a building block that contributes to the overall functionality of the Quizify application. Below is a brief description of each task:
+
+	1.	Task 3: Document ingestion and text processing.
+	2.	Task 4: Embedding generation using a pre-trained model.
+	3.	Task 5: Creation and management of Chroma collections for storing processed data.
+	4.	Task 8: Automated quiz question generation based on the processed text.
+	5.	Task 9: Management of quiz questions and user interaction.
+	6.	Task 10: Integration of all components into a Streamlit application for end-to-end quiz generation and management.
