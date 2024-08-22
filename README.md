@@ -50,6 +50,7 @@ pip install -r requirements.txt
 **3. Set Up Google Cloud Credentials:**
   -  Enure you have a valid Google Cloud project with the textembedding-gecko model enabled.
   -  Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to point to your Google Cloud service account key file.
+
 **4. Run the Application:**
   ```bash
    streamlit run Task_10.py
