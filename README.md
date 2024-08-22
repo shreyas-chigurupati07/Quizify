@@ -37,7 +37,12 @@ The project is divided into several tasks, each encapsulated within its respecti
 -  pip (Python package manager)
 -  Google Cloud credentials (for the embedding service)
 ### Setup
-
+-  Clone the repo: 'git clone https://github.com/yourusername/quizify.git cd quizify'
+-  Install Dependencies: 'pip install -r requirements.txt'
+-  Set Up Google Cloud Credentials:
+  -  Enure you have a valid Google Cloud project with the textembedding-gecko model enabled.
+  -  Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to point to your Google Cloud service account key file.
+-  Run the Application:'streamlit run Task_10.py'
 
 ## Usage
 
