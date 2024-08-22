@@ -21,20 +21,19 @@ The project is divided into several tasks, each encapsulated within its respecti
 -  Task 4 - Embedding Client
    Module: EmbeddingClient
    Functionality: Generates text embeddings using the textembedding-gecko model, which are crucial for understanding document content.
-  
-	3.	Task 5 - Chroma Collection Creator
+-  Task 5 - Chroma Collection Creator
 		Module: ChromaCollectionCreator
 		Functionality: Creates a Chroma collection from the processed document text and embeddings, storing it for later retrieval during quiz generation.
   
-	4.	Task 8 - Quiz Generator
+-  Task 8 - Quiz Generator
 		Module: QuizGenerator
 		Functionality: Generates a set of quiz questions based on the provided topic and Chroma collection.
   
-	5.	Task 9 - Quiz Manager
+-  Task 9 - Quiz Manager
 		Module: QuizManager
 		Functionality: Manages the generated quiz questions, enabling navigation, answer submission, and feedback.
   
-	6.	Task 10 - Main Application
+-  Task 10 - Main Application
 		Module: Task_10.py
 		Functionality: Integrates all the above modules into a cohesive Streamlit application, allowing users to generate and take quizzes interactively.
 
