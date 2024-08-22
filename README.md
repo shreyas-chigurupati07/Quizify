@@ -14,17 +14,17 @@ Quizify is an AI-powered tool designed to generate and manage quizzes based on p
 ### Project Structure
 
 The project is divided into several tasks, each encapsulated within its respective module:
--  **Task 3 - Document Processing**
+-  **Task 3 - Document Processing**\
    Module: DocumentProcessor
    Functionality: Handles the ingestion and processing of documents, extracting text content for quiz generation.
--  **Task 4 - Embedding Client**
-   Module: EmbeddingClient
+-  **Task 4 - Embedding Client**\
+   Module: EmbeddingClient\
    Functionality: Generates text embeddings using the textembedding-gecko model, which are crucial for understanding document content.
--  **Task 5 - Chroma Collection Creator**
-		Module: ChromaCollectionCreator
-		Functionality: Creates a Chroma collection from the processed document text and embeddings, storing it for later retrieval during quiz generation.
+-  **Task 5 - Chroma Collection Creator**\
+		Module: ChromaCollectionCreator\
+		Functionality: Creates a Chroma collection from the processed document text and embeddings, storing it for later retrieval during quiz generation.\
   
--  **Task 8 - Quiz Generator**
+-  **Task 8 - Quiz Generator**\
 		Module: QuizGenerator
 		Functionality: Generates a set of quiz questions based on the provided topic and Chroma collection.
   
@@ -57,3 +57,7 @@ The project is divided into several tasks, each encapsulated within its respecti
 -  Navigate through the quiz using the “Next Question” and “Previous Question” buttons.
 -  Select an answer for each question and receive instant feedback on your selection.
 -  View explanations for the correct answers.
+
+## Results
+![Screenshot from 2024-08-15 13-52-32](https://github.com/user-attachments/assets/9150306c-8cbc-4121-97d2-9492138c6671)
+
