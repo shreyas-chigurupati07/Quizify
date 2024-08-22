@@ -38,8 +38,10 @@ The project is divided into several tasks, each encapsulated within its respecti
 -  Google Cloud credentials (for the embedding service)
 ### Setup
 -  Clone the repo:
-  '''bash
-git clone https://github.com/yourusername/quizify.git cd quizify
+'''
+git clone https://github.com/yourusername/quizify.git
+cd quizify
+
 '''
 -  Install Dependencies: 'pip install -r requirements.txt'
 -  Set Up Google Cloud Credentials:
