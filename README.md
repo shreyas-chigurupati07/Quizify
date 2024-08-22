@@ -15,7 +15,7 @@ Quizify is an AI-powered tool designed to generate and manage quizzes based on p
 ### Project Structure
 
 The project is divided into several tasks, each encapsulated within its respective module:
- Markup : 1. A numbered list
+1. A numbered list
               1. A nested numbered list
               2. Which is numbered
           2. Which is numbered
